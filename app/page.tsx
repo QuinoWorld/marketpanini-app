@@ -105,35 +105,52 @@ export default function Home() {
               </div>
 
               <div className="mt-6 text-center">
-                <div className="mb-4 text-5xl">⭐</div>
+                <div className="mb-4 flex items-center justify-center gap-2">
+                  <span className="text-4xl">⭐</span>
+                </div>
 
-                <p className="text-sm text-slate-400">WORLD CUP 2030</p>
+                <div className="mx-auto mb-6 flex h-72 w-52 items-center justify-center rounded-[28px] border border-yellow-400/50 bg-gradient-to-b from-slate-800 to-slate-950 shadow-[inset_0_0_30px_rgba(250,204,21,0.12)]">
+                  <span className="text-center text-sm font-semibold text-slate-400">
+                    FOTO
+                    <br />
+                    LAMINE
+                    <br />
+                    YAMAL
+                  </span>
+                </div>
 
-                <h2 className="mt-2 text-3xl font-extrabold">ARG 10</h2>
+                <p className="text-xs font-bold tracking-[0.3em] text-blue-300">
+                  WORLD CUP 2030
+                </p>
 
-                <h3 className="mt-4 text-4xl font-black text-yellow-300">
-                  MESSI
+                <div className="mt-3 flex items-center justify-center gap-3">
+                  <span className="rounded-full border border-white/20 px-3 py-1 text-sm font-bold text-slate-200">
+                    ESP
+                  </span>
+
+                  <span className="rounded-full border border-white/20 px-3 py-1 text-sm font-bold text-slate-200">
+                    #19
+                  </span>
+                </div>
+
+                <h3 className="mt-5 text-5xl font-black leading-none text-yellow-300">
+                  LAMINE
+                  <br />
+                  YAMAL
                 </h3>
 
-                <div className="mt-6 rounded-xl bg-slate-800 p-4">
-                  <p className="text-sm text-slate-400">Rareza</p>
-                  <p className="text-xl font-bold text-yellow-300">
-                    Legendary
-                  </p>
-                </div>
+                <div className="mx-auto mt-5 h-px w-40 bg-gradient-to-r from-transparent via-yellow-400 to-transparent" />
 
-                <div className="mt-4 rounded-xl bg-slate-800 p-4">
-                  <p className="text-sm text-slate-400">Valor estimado</p>
-                  <p className="text-2xl font-bold text-emerald-400">
-                    S/150
-                  </p>
-                </div>
+                <div className="mt-5 flex items-center justify-between rounded-2xl bg-white/10 px-5 py-4">
+                  <div className="text-left">
+                    <p className="text-xs text-slate-400">Valor estimado</p>
+                    <p className="text-2xl font-black text-emerald-400">S/220</p>
+                  </div>
 
-                <div className="mt-4 rounded-xl bg-emerald-400 p-4 text-slate-950">
-                  <p className="font-bold">Figurita destacada</p>
-                  <p className="text-sm">
-                    Ejemplo de carta premium del marketplace.
-                  </p>
+                  <div className="text-right">
+                    <p className="text-xs text-slate-400">Rareza</p>
+                    <p className="text-sm font-black text-yellow-300">LEGENDARY</p>
+                  </div>
                 </div>
               </div>
             </div>
