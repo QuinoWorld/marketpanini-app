@@ -69,12 +69,12 @@ export default function LoginPage() {
           Mantener mi sesión iniciada
         </label>
 
-        <button
-          type="button"
-          className="w-full rounded-full bg-emerald-400 px-6 py-4 font-black text-slate-950 shadow-[0_0_24px_rgba(52,211,153,0.2)] transition hover:bg-emerald-300 hover:shadow-[0_0_32px_rgba(52,211,153,0.32)]"
+        <Link
+          href="/dashboard"
+          className="flex w-full items-center justify-center rounded-full bg-emerald-400 px-6 py-4 font-black text-slate-950 shadow-[0_0_24px_rgba(52,211,153,0.2)] transition hover:bg-emerald-300 hover:shadow-[0_0_32px_rgba(52,211,153,0.32)]"
         >
           Entrar a mi colección
-        </button>
+        </Link>
 
         <div className="flex items-center gap-4">
           <div className="h-px flex-1 bg-white/10" />

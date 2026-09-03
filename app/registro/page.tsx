@@ -106,12 +106,12 @@ export default function RegistroPage() {
           </span>
         </label>
 
-        <button
-          type="button"
-          className="w-full rounded-full bg-emerald-400 px-6 py-4 font-black text-slate-950 shadow-[0_0_24px_rgba(52,211,153,0.2)] transition hover:bg-emerald-300 hover:shadow-[0_0_32px_rgba(52,211,153,0.32)]"
+        <Link
+          href="/dashboard"
+          className="flex w-full items-center justify-center rounded-full bg-emerald-400 px-6 py-4 font-black text-slate-950 shadow-[0_0_24px_rgba(52,211,153,0.2)] transition hover:bg-emerald-300 hover:shadow-[0_0_32px_rgba(52,211,153,0.32)]"
         >
           Crear mi colección
-        </button>
+        </Link>
 
         <p className="text-center text-xs leading-5 text-slate-500">
           El registro es una vista previa visual y todavía no almacena datos.
